@@ -36,3 +36,4 @@ float function1(float x, float y, float z)
     float w=pow(pow (x, 2) + y, 0.5) - pow(y, 2) * pow(sin((x + z) / x), 3);
     return (w);
 }
+ 
