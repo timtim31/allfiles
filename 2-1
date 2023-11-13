@@ -49,8 +49,6 @@ double fun_scan() {
     a=scanf("%lf", &b);
     if (a!=1){
         printf("%s", "Error");
-    } else {
-        return b;
-    }
+    } 
     return 0;
 }
