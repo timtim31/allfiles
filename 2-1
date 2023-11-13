@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 enum Numbers {
     first,second,third
 };
@@ -48,7 +49,7 @@ double fun_scan() {
     double b;
     a=scanf("%lf", &b);
     if (a!=1){
-        printf("%s", "Error");
+        abort();
     } 
     return b;
 }
