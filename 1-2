@@ -1,5 +1,6 @@
 #include <stdio.h>
- 
+#include <stdlib.h>
+
 /**
  * @brief Функция расчета формулы
  * @param x значение параметра
@@ -33,7 +34,7 @@ double fun_scan() {
     double b;
     a=scanf("%lf", &b);
     if (a!=1){
-        printf("%s", "Error");
+        abort();
     } 
     return b;
 }
