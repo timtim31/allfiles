@@ -1,23 +1,27 @@
 #include <stdio.h> 
 #include <math.h> 
+
 /** 
  * @brief Функция расчета формулы
  * @param x, a значения параметров
  * @return q значение вычислений  
 */
 float function1(float x, float a, float q);
+
 /**
  * @brief Функция расчета формулы
  * @param x, a значения параметров
  * @return q значение вычислений  
 */
 float function2(float x, float a, float q);
+
 /**
  * @brief Функция расчета формулы
  * @param x, a значения параметров
  * @return q значение вычислений  
 */
 float function3(float x, float a, float q);
+
 /**
  * @brief Функция проверки ввода на число 
  * @param x значение вводимого параметра 
@@ -68,5 +72,5 @@ double fun_scan() {
     if (a!=1){
         printf("%s", "Error");
     } 
-    return 0;
+    return b;
 }
