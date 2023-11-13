@@ -1,5 +1,6 @@
 #include <math.h> 
 #include <stdio.h> 
+#include <stdlib.h>
 
 /**
  * @brief Функция расчета формулы
@@ -37,7 +38,7 @@ double fun_scan() {
     double b;
     a=scanf("%lf", &b);
     if ((a!=1)&&(a>0)){
-        printf("%s", "Error");
+        abort();
     } 
     return b;
 }
