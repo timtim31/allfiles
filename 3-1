@@ -37,7 +37,7 @@ double fun_scan() {
     int a;
     double b;
     a=scanf("%lf", &b);
-    if ((a!=1)&&(a>0)){
+    if ((a!=1)&&(a<0)){
         abort();
     } 
     return b;
