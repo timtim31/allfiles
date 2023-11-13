@@ -41,5 +41,5 @@ double fun_scan() {
     if (a!=1){
         printf("%s", "Error");
     } 
-    return 0;
+    return b;
 }
